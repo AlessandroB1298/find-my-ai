@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: full;
+}
+
+.hero-text {
+  color: rgb(161, 73, 228);
+  font-weight: 800;
+}
+
+.nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  padding: 10px;
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  list-style-type: none;
+}
+.nav li {
+  padding: 10px;
+}
+
+.nav a {
+  position: relative;
+  display: inline-block;
+  padding: 0px var(--link-underline-padding);
+  text-decoration: none;
+}
+
+.nav a:after {
+  position: absolute;
+  left: 0px;
+  background-color: rgb(161, 73, 228);
+  content: "";
+  display: block;
+  height: 0.1em;
+  margin-top: 0.2em;
+  transition: width 0.5s;
+  width: 0;
+}
+
+.nav a:hover {
+  cursor: pointer;
+}
+.nav a:hover:after {
+  width: 100%;
+}
