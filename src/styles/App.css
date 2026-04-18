@@ -5,9 +5,23 @@
   width: full;
 }
 
+h1 {
+  font-family: monospace;
+  font-weight: 500;
+}
+
 .hero-text {
-  color: rgb(161, 73, 228);
-  font-weight: 800;
+  background: linear-gradient(
+    90deg,
+    #ff33b4,
+    #7319fa,
+    #ae0996
+  ); /* Your colors */
+  -webkit-background-clip: text; /* Clips background to text */
+  background-clip: text;
+  color: transparent; /* Makes original text transparent to see gradient */
+  font-family: monospace;
+  font-weight: 600;
 }
 
 .nav {
@@ -40,6 +54,7 @@
   display: inline-block;
   padding: 0px var(--link-underline-padding);
   text-decoration: none;
+  color: rgb(156, 163, 175);
 }
 
 .nav a:after {
@@ -47,6 +62,7 @@
   left: 0px;
   background-color: rgb(161, 73, 228);
   content: "";
+  color: rgb(161, 73, 228);
   display: block;
   height: 0.1em;
   margin-top: 0.2em;

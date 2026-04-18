@@ -1,0 +1,41 @@
+.explore-container {
+  display: flex;
+  margin: 3em;
+  flex-direction: row;
+  border-radius: 20px;
+  align-items: center;
+  padding: 8px;
+}
+
+.explore-content {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+  width: 100%;
+}
+
+.grid-item {
+  box-shadow: 0 4px 12px purple;
+  border-radius: 20px;
+  padding: 10px;
+  width: 18em;
+  height: 20em;
+}
+.grid-item h3 {
+  text-decoration: underline;
+}
+
+.grid-item p {
+  font-size: 0.7em;
+}
+
+@media (max-width: 768px) {
+  .explore-content {
+    margin-top: 20em;
+    flex-direction: column;
+  }
+  .grid-item {
+    width: 100%;
+  }
+}

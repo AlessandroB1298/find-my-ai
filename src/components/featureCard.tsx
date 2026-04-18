@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import type { featureType } from "../lib/types";
 import "../styles/components/_featureCard.css";
-export function FeatureCard({ name, description, icon }: featureType) {
+export function FeatureCard({ name, description, icon, link }: featureType) {
   const Icon = icon;
 
   return (
@@ -16,8 +17,10 @@ export function FeatureCard({ name, description, icon }: featureType) {
         <p>{description}</p>
       </section>
 
-      <section>
-        <button>Explore</button>
+      <section className="card-container-button">
+        <Link to={link}>
+          <button>Explore</button>
+        </Link>
       </section>
     </div>
   );

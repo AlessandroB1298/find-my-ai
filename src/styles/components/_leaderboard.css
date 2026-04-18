@@ -1,0 +1,92 @@
+/* Container styling */
+.leaderboard-container {
+  padding: 2rem;
+  background-color: #16171d;
+  border-radius: 6px;
+  box-shadow: 0 4px 20px purple;
+  font-family: "Inter", sans-serif; /* Modern sans-serif works best */
+  overflow-x: auto;
+}
+
+.leaderboard-title {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: rgb(161, 73, 228);
+  font-weight: 900;
+}
+
+.leaderboard-citation,
+a {
+  font-size: 0.8em;
+  color: #53566e;
+  font-style: italic;
+}
+/* Table layout */
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+/* Header styling */
+.leaderboard-table th {
+  padding: 12px 16px;
+  border-bottom: 2px solid #323442;
+  color: #666;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Row styling */
+.leaderboard-table tr {
+  transition: background-color 0.2s ease;
+}
+
+.leaderboard-table tbody tr:hover {
+  background-color: #323442;
+}
+
+.leaderboard-table td {
+  padding: 16px;
+  border-bottom: 1px solid #323442;
+  vertical-align: middle;
+  color: #f0f0f0;
+}
+
+/* Logo and Model Column */
+.model-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 500;
+}
+.model-info img {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.row-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  object-fit: contain;
+  background: #f4f4f4; /* Placeholder background */
+}
+
+/* Special Cell Styling */
+.rank-cell {
+  font-weight: 700;
+  color: #f0f0f0;
+}
+
+.score-cell {
+  font-weight: 600;
+  color: #2563eb; /* Highlighted blue for scores */
+}
+
+.price-cell small {
+  color: #6b7280;
+  font-family: monospace;
+}

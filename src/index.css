@@ -50,6 +50,7 @@
 }
 
 #root {
+  font-family: monospace;
   width: 100vw;
   max-width: 100%;
   margin: 0 auto;
