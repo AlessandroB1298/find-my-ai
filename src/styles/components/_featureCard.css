@@ -1,19 +1,22 @@
 .cards {
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 2em;
   height: 24em;
-  max-width: 61em;
+  max-width: 70em;
   margin-top: 1em;
+  margin-bottom: 8em;
 }
 
 .card-container {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  border: 1px solid;
-  border-color: 9ca3af;
   border-radius: 28px;
+  gap: 10px;
+  box-shadow: 0 4px 12px purple;
+  width: 100%;
+  height: 100%; /* Ensure all cards are same height */
 }
 
 .card-container-header {
@@ -21,7 +24,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 4px;
+  gap: 0.8em;
 }
 
 .card-container-description {
@@ -29,9 +32,31 @@
   display: flex;
 }
 
+.card-container-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.card-container-button:hover {
+  transform: translateY(-10px);
+}
+.card-container button {
+  cursor: pointer;
+
+  padding: 1em 2.7em;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #aa3bff;
+}
 /* Mobile: Single column stack */
 @media (max-width: 768px) {
   .cards {
+    margin: 1em;
     flex-direction: column;
   }
 }

@@ -1,0 +1,452 @@
+[
+    {
+        "rank": "1",
+        "model": "Claude Mythos Preview",
+        "creator": "Anthropic",
+        "sourceType": "Proprietary",
+        "overallScore": "99",
+        "inputPrice": "25",
+        "outputPrice": "125"
+    },
+    {
+        "rank": "2",
+        "model": "GPT-5.4",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "overallScore": "94",
+        "inputPrice": "2.5",
+        "outputPrice": "15"
+    },
+    {
+        "rank": "3",
+        "model": "Gemini 3.1 Pro",
+        "creator": "Google",
+        "sourceType": "Proprietary",
+        "overallScore": "94",
+        "inputPrice": "1.25",
+        "outputPrice": "5"
+    },
+    {
+        "rank": "4",
+        "model": "Claude Opus 4.6",
+        "creator": "Anthropic",
+        "sourceType": "Proprietary",
+        "overallScore": "92",
+        "inputPrice": "15",
+        "outputPrice": "75"
+    },
+    {
+        "rank": "5",
+        "model": "GPT-5.4 Pro",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "overallScore": "92",
+        "inputPrice": "30",
+        "outputPrice": "180"
+    },
+    {
+        "rank": "6",
+        "model": "GPT-5.3 Codex",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "overallScore": "89",
+        "inputPrice": "2.5",
+        "outputPrice": "10"
+    },
+    {
+        "rank": "7",
+        "model": "Gemini 3 Pro Deep Think",
+        "creator": "Google",
+        "sourceType": "Proprietary",
+        "overallScore": "87",
+        "inputPrice": "",
+        "outputPrice": ""
+    },
+    {
+        "rank": "8",
+        "model": "Claude Sonnet 4.6",
+        "creator": "Anthropic",
+        "sourceType": "Proprietary",
+        "overallScore": "86",
+        "inputPrice": "3",
+        "outputPrice": "15"
+    },
+    {
+        "rank": "9",
+        "model": "GLM-5 (Reasoning)",
+        "creator": "Z.AI",
+        "sourceType": "Open Weight",
+        "overallScore": "85",
+        "inputPrice": "0",
+        "outputPrice": "0"
+    },
+    {
+        "rank": "10",
+        "model": "GLM-5.1",
+        "creator": "Z.AI",
+        "sourceType": "Open Weight",
+        "overallScore": "84",
+        "inputPrice": "1.4",
+        "outputPrice": "4.4"
+    },
+    {
+        "rank": "11",
+        "model": "GPT-5.2",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "overallScore": "84",
+        "inputPrice": "2",
+        "outputPrice": "8"
+    },
+    {
+        "rank": "12",
+        "model": "Gemini 3 Pro",
+        "creator": "Google",
+        "sourceType": "Proprietary",
+        "overallScore": "83",
+        "inputPrice": "",
+        "outputPrice": ""
+    },
+    {
+        "rank": "13",
+        "model": "Grok 4.1",
+        "creator": "xAI",
+        "sourceType": "Proprietary",
+        "overallScore": "81",
+        "inputPrice": "3",
+        "outputPrice": "15"
+    },
+    {
+        "rank": "14",
+        "model": "Qwen3.5 397B (Reasoning)",
+        "creator": "Alibaba",
+        "sourceType": "Open Weight",
+        "overallScore": "81",
+        "inputPrice": "0",
+        "outputPrice": "0"
+    },
+    {
+        "rank": "15",
+        "model": "GPT-5.1",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "overallScore": "81",
+        "inputPrice": "1.5",
+        "outputPrice": "6"
+    },
+    {
+        "rank": "16",
+        "model": "Claude Opus 4.5",
+        "creator": "Anthropic",
+        "sourceType": "Proprietary",
+        "overallScore": "80",
+        "inputPrice": "",
+        "outputPrice": ""
+    },
+    {
+        "rank": "17",
+        "model": "GPT-5 (high)",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "overallScore": "80",
+        "inputPrice": "",
+        "outputPrice": ""
+    },
+    {
+        "rank": "18",
+        "model": "GPT-5.2-Codex",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "overallScore": "80",
+        "inputPrice": "2",
+        "outputPrice": "8"
+    },
+    {
+        "rank": "19",
+        "model": "Kimi K2.5 (Reasoning)",
+        "creator": "Moonshot AI",
+        "sourceType": "Proprietary",
+        "overallScore": "79",
+        "inputPrice": "",
+        "outputPrice": ""
+    },
+    {
+        "rank": "20",
+        "model": "GPT-5.1-Codex-Max",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "overallScore": "79",
+        "inputPrice": "2",
+        "outputPrice": "8"
+    },
+    {
+        "rank": "21",
+        "model": "Grok 4.20",
+        "creator": "xAI",
+        "sourceType": "Proprietary",
+        "overallScore": "78",
+        "inputPrice": "2",
+        "outputPrice": "6"
+    },
+    {
+        "rank": "22",
+        "model": "GLM-5",
+        "creator": "Z.AI",
+        "sourceType": "Open Weight",
+        "overallScore": "77",
+        "inputPrice": "0",
+        "outputPrice": "0"
+    },
+    {
+        "rank": "23",
+        "model": "Qwen3.6 Plus",
+        "creator": "Alibaba",
+        "sourceType": "Proprietary",
+        "overallScore": "77",
+        "inputPrice": "0",
+        "outputPrice": "0"
+    },
+    {
+        "rank": "24",
+        "model": "Gemma 4 31B",
+        "creator": "Google",
+        "sourceType": "Open Weight",
+        "overallScore": "74",
+        "inputPrice": "0",
+        "outputPrice": "0"
+    },
+    {
+        "rank": "25",
+        "model": "GPT-5 (medium)",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "overallScore": "74",
+        "inputPrice": "",
+        "outputPrice": ""
+    },
+    {
+        "rank": "26",
+        "model": "GPT-5.4 mini",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "overallScore": "73",
+        "inputPrice": "0.75",
+        "outputPrice": "4.5"
+    },
+    {
+        "rank": "27",
+        "model": "GLM-4.7",
+        "creator": "Z.AI",
+        "sourceType": "Open Weight",
+        "overallScore": "72",
+        "inputPrice": "0",
+        "outputPrice": "0"
+    },
+    {
+        "rank": "28",
+        "model": "Grok 4.1 Fast",
+        "creator": "xAI",
+        "sourceType": "Proprietary",
+        "overallScore": "72",
+        "inputPrice": "",
+        "outputPrice": ""
+    },
+    {
+        "rank": "29",
+        "model": "o1-preview",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "overallScore": "69",
+        "inputPrice": "",
+        "outputPrice": ""
+    },
+    {
+        "rank": "30",
+        "model": "Kimi K2.5",
+        "creator": "Moonshot AI",
+        "sourceType": "Open Weight",
+        "overallScore": "68",
+        "inputPrice": "0.5",
+        "outputPrice": "2.8"
+    },
+    {
+        "rank": "31",
+        "model": "Qwen3.5-122B-A10B",
+        "creator": "Alibaba",
+        "sourceType": "Open Weight",
+        "overallScore": "68",
+        "inputPrice": "0",
+        "outputPrice": "0"
+    },
+    {
+        "rank": "32",
+        "model": "Claude Sonnet 4.5",
+        "creator": "Anthropic",
+        "sourceType": "Proprietary",
+        "overallScore": "68",
+        "inputPrice": "3",
+        "outputPrice": "15"
+    },
+    {
+        "rank": "33",
+        "model": "Gemini 3 Flash",
+        "creator": "Google",
+        "sourceType": "Proprietary",
+        "overallScore": "67",
+        "inputPrice": "0.5",
+        "outputPrice": "3"
+    },
+    {
+        "rank": "34",
+        "model": "Gemini 2.5 Pro",
+        "creator": "Google",
+        "sourceType": "Proprietary",
+        "overallScore": "67",
+        "inputPrice": "1.25",
+        "outputPrice": "5"
+    },
+    {
+        "rank": "35",
+        "model": "Grok 4",
+        "creator": "xAI",
+        "sourceType": "Proprietary",
+        "overallScore": "67",
+        "inputPrice": "",
+        "outputPrice": ""
+    },
+    {
+        "rank": "36",
+        "model": "Qwen3.5 397B",
+        "creator": "Alibaba",
+        "sourceType": "Open Weight",
+        "overallScore": "66",
+        "inputPrice": "0",
+        "outputPrice": "0"
+    },
+    {
+        "rank": "37",
+        "model": "Qwen3.5-27B",
+        "creator": "Alibaba",
+        "sourceType": "Open Weight",
+        "overallScore": "66",
+        "inputPrice": "0",
+        "outputPrice": "0"
+    },
+    {
+        "rank": "38",
+        "model": "DeepSeek V3.2 (Thinking)",
+        "creator": "DeepSeek",
+        "sourceType": "Open Weight",
+        "overallScore": "65",
+        "inputPrice": "0",
+        "outputPrice": "0"
+    },
+    {
+        "rank": "39",
+        "model": "MiMo-V2-Flash",
+        "creator": "Xiaomi",
+        "sourceType": "Open Weight",
+        "overallScore": "63",
+        "inputPrice": "0",
+        "outputPrice": "0"
+    },
+    {
+        "rank": "40",
+        "model": "GPT-4.1",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "overallScore": "61",
+        "inputPrice": "2",
+        "outputPrice": "8"
+    },
+    {
+        "rank": "41",
+        "model": "Qwen3.5-35B-A3B",
+        "creator": "Alibaba",
+        "sourceType": "Open Weight",
+        "overallScore": "60",
+        "inputPrice": "0",
+        "outputPrice": "0"
+    },
+    {
+        "rank": "42",
+        "model": "DeepSeek V3.2",
+        "creator": "DeepSeek",
+        "sourceType": "Open Weight",
+        "overallScore": "60",
+        "inputPrice": "0",
+        "outputPrice": "0"
+    },
+    {
+        "rank": "43",
+        "model": "Claude Haiku 4.5",
+        "creator": "Anthropic",
+        "sourceType": "Proprietary",
+        "overallScore": "60",
+        "inputPrice": "0.8",
+        "outputPrice": "4"
+    },
+    {
+        "rank": "44",
+        "model": "o3",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "overallScore": "60",
+        "inputPrice": "10",
+        "outputPrice": "40"
+    },
+    {
+        "rank": "45",
+        "model": "o3-pro",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "overallScore": "60",
+        "inputPrice": "",
+        "outputPrice": ""
+    },
+    {
+        "rank": "46",
+        "model": "o1",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "overallScore": "60",
+        "inputPrice": "15",
+        "outputPrice": "60"
+    },
+    {
+        "rank": "47",
+        "model": "Gemma 4 26B A4B",
+        "creator": "Google",
+        "sourceType": "Open Weight",
+        "overallScore": "58",
+        "inputPrice": "0",
+        "outputPrice": "0"
+    },
+    {
+        "rank": "48",
+        "model": "o3-mini",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "overallScore": "58",
+        "inputPrice": "1.1",
+        "outputPrice": "4.4"
+    },
+    {
+        "rank": "49",
+        "model": "DeepSeek LLM 2.0",
+        "creator": "DeepSeek",
+        "sourceType": "Open Weight",
+        "overallScore": "54",
+        "inputPrice": "0",
+        "outputPrice": "0"
+    },
+    {
+        "rank": "50",
+        "model": "DeepSeek Coder 2.0",
+        "creator": "DeepSeek",
+        "sourceType": "Open Weight",
+        "overallScore": "54",
+        "inputPrice": "0.27",
+        "outputPrice": "1.1"
+    }
+]

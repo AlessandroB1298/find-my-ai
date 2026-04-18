@@ -9,11 +9,14 @@ export function Nav() {
       </div>
       <ul>
         <li>
-          <a>Explore</a>
+          <a href="/">Explore</a>
         </li>
 
         <li>
-          <a>Leaderboard</a>
+          <a href="/leaderboard">Leaderboard</a>
+        </li>
+        <li>
+          <a href="">Alternatives</a>
         </li>
 
         <li>
