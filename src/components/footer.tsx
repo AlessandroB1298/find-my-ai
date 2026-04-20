@@ -12,22 +12,29 @@ export function Footer() {
         </div>
         <div className="footer-resources">
           <div className="footer-resource-content">
-            <p>Multi-Step-Form</p>
+            <a>Multi-Step-Form</a>
           </div>
           <div className="footer-resource-content">
-            <p>Leaderboard</p>
+            <a href="/leaderboard">Leaderboard</a>
           </div>
           <div className="footer-resource-content">
-            <p>Alternatives</p>
+            <a>Alternatives</a>
           </div>
           <div className="footer-resource-content">
-            <p>Contact Us</p>
+            <a href="/contact">Contact Us</a>
           </div>
         </div>
       </div>
       <div className="social-media">
-        <FaGithub className="icon" />
-        <FaLinkedin className="icon" />
+        <a target="_blank" href="https://github.com/AlessandroB1298/find-my-ai">
+          <FaGithub className="icon" />
+        </a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/aidan-bongiorno-215194255/"
+        >
+          <FaLinkedin className="icon" />
+        </a>
       </div>
     </div>
   );
