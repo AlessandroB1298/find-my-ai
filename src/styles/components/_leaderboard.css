@@ -4,7 +4,7 @@
   background-color: #16171d;
   border-radius: 6px;
   box-shadow: 0 4px 20px purple;
-  font-family: "Inter", sans-serif; /* Modern sans-serif works best */
+  font-family: monospace;
   overflow-x: auto;
 }
 
@@ -17,7 +17,7 @@
 
 .leaderboard-citation,
 a {
-  font-size: 0.8em;
+  font-size: 0.65em;
   color: #53566e;
   font-style: italic;
 }
@@ -34,7 +34,7 @@ a {
   border-bottom: 2px solid #323442;
   color: #666;
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: 0.65rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -53,11 +53,13 @@ a {
   border-bottom: 1px solid #323442;
   vertical-align: middle;
   color: #f0f0f0;
+  font-size: 0.8em;
 }
 
 /* Logo and Model Column */
 .model-info {
   display: flex;
+  font-size: 0.75em;
   align-items: center;
   gap: 12px;
   font-weight: 500;
@@ -79,10 +81,12 @@ a {
 .rank-cell {
   font-weight: 700;
   color: #f0f0f0;
+  font-size: 0.75em;
 }
 
 .score-cell {
   font-weight: 600;
+  font-size: 0.75em;
   color: #2563eb; /* Highlighted blue for scores */
 }
 

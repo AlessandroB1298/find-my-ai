@@ -4,14 +4,13 @@ export function Nav() {
   return (
     <nav className="nav">
       <div className="banner">
-        <h4>MYAI</h4>
+        <a href="/">MYAI</a>
         <Bot />
       </div>
       <ul>
         <li>
-          <a href="/">Explore</a>
+          <a href="">Explore</a>
         </li>
-
         <li>
           <a href="/leaderboard">Leaderboard</a>
         </li>
@@ -20,7 +19,7 @@ export function Nav() {
         </li>
 
         <li>
-          <a>Contact Us</a>
+          <a href="/contact">Contact Us</a>
         </li>
       </ul>
     </nav>

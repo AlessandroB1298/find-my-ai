@@ -16,3 +16,9 @@ export type leaderboardType = {
   inputPrice: string;
   outputPrice: string;
 };
+
+export type ContactFormProps = {
+  name: string;
+  email: string;
+  message: string;
+};

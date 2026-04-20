@@ -8,14 +8,14 @@ This application is designed to showcase AI stats, ranging from LLMs to CV model
 
 ## Requirements
 
-- [ ] One page containing a form with at least three elements (place a form content in an e-mail message)
-- [ ] One page utilizing tables effectively
+- [x] One page containing a form with at least three elements (place a form content in an e-mail message)
+- [x] One page utilizing tables effectively
 - [ ] One animated image
 - [ ] One e-mail hyperlink
 - [x] At least one-page with a 3-column layout
-- [ ] Five external hyperlinks
-- [ ] Five internal hyperlinks
+- [ ] 2/5 external hyperlinks
+- [x] 5/5 internal hyperlinks
 - [x] Consistent banner logo area
 - [x] Consistent navigation area
 - [x] External style sheet
-- [ ] Responsive
+- [x] Responsive
