@@ -21,4 +21,26 @@ export type ContactFormProps = {
   name: string;
   email: string;
   message: string;
+  subject: string;
+};
+
+export type ProjectType =
+  | "Frontend"
+  | "Backend"
+  | "Fullstack"
+  | "Ai-Project"
+  | "infrastructure"
+  | "Design";
+
+export type ProjectSupportType = "Little" | "Moderate" | "Lots";
+
+export type ProjectCost = "Free" | "Cheap" | "Moderate" | "Expensive";
+
+export type HelperType = {
+  projectName: string;
+  projectType: ProjectType;
+  projectDesc: string;
+  projectTechStack: string;
+  projectSupportType: ProjectSupportType;
+  projectCost: ProjectCost;
 };

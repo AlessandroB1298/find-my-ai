@@ -1,47 +1,48 @@
 import { useRef, useState } from "react";
 import "../styles/components/_contact.css";
-import emailjs from "@emailjs/browser";
 import type { ContactFormProps } from "../lib/types";
 import { ToastContainer } from "react-toastify";
 import { successToastMessage, errorToastMessage } from "../lib/toast";
+import { getEncodedFormItems } from "../lib/helpers";
+import { TEST_EMAIL } from "../lib/constants";
 
 export function Contact() {
-  const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-  const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-  const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
-
   const formRef = useRef<HTMLFormElement>(null);
   const [form, setForm] = useState<ContactFormProps>({
     name: "",
     email: "",
     message: "",
+    subject: "",
   });
 
   const handleClearForm = () => {
-    setForm({ name: "", email: "", message: "" });
+    setForm({ name: "", email: "", message: "", subject: " " });
   };
+
   const handleSubmit = (e: React.SubmitEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (formRef.current) {
-      emailjs
-        .sendForm(serviceId, templateId, formRef.current, {
-          publicKey: publicKey,
-          limitRate: {
-            id: "contact",
-            throttle: 10000,
-          },
-        })
-        .then(
-          () => {
-            console.log("sent email ");
-            handleClearForm();
-            successToastMessage();
-          },
-          (error) => {
-            console.log(error);
-            errorToastMessage();
-          },
-        );
+
+    try {
+      const { name, email, message, subject } = getEncodedFormItems(form);
+
+      if (!name || !email || !message) {
+        errorToastMessage(); // Or a custom "validation" toast
+        return;
+      }
+
+      const recipient = TEST_EMAIL; // Test email for mailto
+      const emailSubject = encodeURIComponent(`${subject}`);
+
+      const body = encodeURIComponent(`\r${message}`);
+
+      window.location.href = `mailto:${recipient}?subject=${emailSubject}&body=${body}`;
+
+      // Success feedback and cleanup
+      successToastMessage();
+      handleClearForm();
+    } catch (error) {
+      console.error("Mailto trigger failed", error);
+      errorToastMessage();
     }
   };
 
@@ -59,39 +60,48 @@ export function Contact() {
             <div className="form-item">
               <label>Name</label>
               <input
-                onChange={(e) => {
-                  setForm({ ...form, name: e.target.value });
-                }}
+                onChange={(e) => setForm({ ...form, name: e.target.value })}
                 value={form.name}
                 name="user_name"
                 className="form-input"
                 placeholder="Ada Lovelace"
+                required
               />
             </div>
+
             <div className="form-item">
               <label>Email</label>
               <input
-                onChange={(e) => {
-                  setForm({ ...form, email: e.target.value });
-                }}
+                onChange={(e) => setForm({ ...form, email: e.target.value })}
                 value={form.email}
                 name="user_email"
                 type="email"
                 className="form-input"
                 placeholder="turingComplete@gmail.com"
+                required
               />
             </div>
           </div>
           <div className="form-item">
+            <label>Subject</label>
+            <input
+              onChange={(e) => setForm({ ...form, subject: e.target.value })}
+              value={form.subject}
+              name="subject"
+              className="form-input"
+              placeholder="Inquiry for multi-step-form"
+              required
+            />
+          </div>
+          <div className="form-item">
             <label>Message</label>
             <textarea
-              onChange={(e) => {
-                setForm({ ...form, message: e.target.value });
-              }}
+              onChange={(e) => setForm({ ...form, message: e.target.value })}
               value={form.message}
               name="message"
-              className="form-input"
+              className="form-input-textarea"
               placeholder="Enter message here..."
+              required
             />
           </div>
           <div className="contact-submit">

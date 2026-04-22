@@ -76,7 +76,9 @@ a {
   object-fit: contain;
   background: #f4f4f4; /* Placeholder background */
 }
-
+.model-cell {
+  font-size: 1.2em;
+}
 /* Special Cell Styling */
 .rank-cell {
   font-weight: 700;
@@ -90,7 +92,12 @@ a {
   color: #2563eb; /* Highlighted blue for scores */
 }
 
-.price-cell small {
-  color: #6b7280;
+.price-cell-low small {
+  color: #38cb53;
+  font-family: monospace;
+}
+
+.price-cell-high small {
+  color: #c83030;
   font-family: monospace;
 }
