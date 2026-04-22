@@ -7,14 +7,13 @@
   font-family: monospace;
   overflow-x: auto;
   align-items: center;
-  padding: 2em;
+  padding: 1em;
 }
 .contact-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 5em;
 }
 .contact-title {
   font-size: 1.5rem;
@@ -56,7 +55,7 @@
   border-radius: 20px;
   padding: 0.7em;
   color: #16171d;
-  width: 100%;
+  width: 90%;
 }
 
 .form-input::placeholder {
@@ -66,19 +65,18 @@
 
 .contact-submit {
   display: flex;
-  align-items: center;
-  width: 100%;
   justify-content: center;
 }
 .contact-button {
   align-items: center;
-  width: 30em;
+  width: 20em;
   cursor: pointer;
   padding: 1em 2.7em;
   border: none;
   border-radius: 10px;
   overflow: hidden;
   background: #aa3bff;
+  margin-right: 6em;
 }
 
 .contact-button:hover {
@@ -90,23 +88,58 @@ label {
   margin-left: 0.25em;
 }
 
-textarea {
-  resize: none;
+.form-input-textarea {
+  resize: false;
+  background-color: rgb(156, 163, 175);
   min-width: 60em;
   min-height: 30em;
+  border-radius: 18px;
+  padding: 5px;
+  color: black;
 }
 
 @media (max-width: 768px) {
-  textarea {
-    resize: true;
-    min-width: 2em;
-    min-height: 2em;
+  .form-item {
+    width: 35em;
+  }
+  .form-input {
+    width: 100%;
+  }
+  .form-input-textarea {
+    min-width: 43em;
+    min-height: 0.4em;
+  }
+  .contact-submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2em;
   }
   .contact-button {
-    width: auto;
+    width: 35em;
+  }
+  .form-container {
+    display: flex;
+    margin: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
   .contact-container {
-    overflow-y: hidden;
-    padding: 1em;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .contact-info {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

@@ -9,7 +9,7 @@ export function Nav() {
       </div>
       <ul>
         <li>
-          <a href="">Explore</a>
+          <a href="/ai-helper">AI Helper</a>
         </li>
         <li>
           <a href="/leaderboard">Leaderboard</a>

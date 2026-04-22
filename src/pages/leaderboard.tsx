@@ -69,16 +69,24 @@ export function LeaderBoard() {
               <td className="model-cell">
                 <div className="model-info">
                   {renderLogo(item.creator)}
-                  <span>{item.model}</span>
+                  <span className="model-cell">{item.model}</span>
                 </div>
               </td>
-              <td>{item.creator}</td>
+              <td className="creator-cell">{item.creator}</td>
               <td className="score-cell">{item.overallScore}</td>
-              <td className="price-cell">
-                <small>
-                  ${item.inputPrice} / ${item.outputPrice}
-                </small>
-              </td>
+              {Number(item.outputPrice) / Number(item.inputPrice) > 4 ? (
+                <td className="price-cell-high">
+                  <small>
+                    ${item.inputPrice} / ${item.outputPrice}
+                  </small>
+                </td>
+              ) : (
+                <td className="price-cell-low">
+                  <small>
+                    ${item.inputPrice} / ${item.outputPrice}
+                  </small>
+                </td>
+              )}
             </tr>
           ))}
         </tbody>

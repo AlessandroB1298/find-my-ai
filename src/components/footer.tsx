@@ -12,7 +12,7 @@ export function Footer() {
         </div>
         <div className="footer-resources">
           <div className="footer-resource-content">
-            <a>Multi-Step-Form</a>
+            <a href="/ai-helper">AI Helper</a>
           </div>
           <div className="footer-resource-content">
             <a href="/leaderboard">Leaderboard</a>

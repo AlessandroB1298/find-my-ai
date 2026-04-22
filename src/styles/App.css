@@ -84,3 +84,13 @@ h1 {
 .nav a:hover:after {
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+  }
+  .nav ul {
+    margin-top: 0;
+    flex-direction: column;
+  }
+}
