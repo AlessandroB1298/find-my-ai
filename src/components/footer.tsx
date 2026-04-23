@@ -18,7 +18,7 @@ export function Footer() {
             <a href="/leaderboard">Leaderboard</a>
           </div>
           <div className="footer-resource-content">
-            <a>Alternatives</a>
+            <a href="/alternatives">Alternatives</a>
           </div>
           <div className="footer-resource-content">
             <a href="/contact">Contact Us</a>

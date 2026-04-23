@@ -44,3 +44,11 @@ export type HelperType = {
   projectSupportType: ProjectSupportType;
   projectCost: ProjectCost;
 };
+
+export type CardData = {
+  img: string;
+  tag: string;
+  title: string;
+  description: string;
+  link: string;
+};

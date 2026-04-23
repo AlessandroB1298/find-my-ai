@@ -1,0 +1,29 @@
+.alternatives-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #16171d;
+  border-radius: 6px;
+  box-shadow: 0 4px 20px purple;
+  font-family: monospace;
+  overflow-x: auto;
+  align-items: center;
+  padding: 1em;
+  padding-bottom: 20em;
+}
+
+.alternatives-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.alternatives-title {
+  font-size: 1.5rem;
+  color: rgb(161, 73, 228);
+  font-weight: 900;
+}
+.alternatives-sub-title {
+  font-size: 0.65em;
+  color: #53566e;
+  font-style: italic;
+}

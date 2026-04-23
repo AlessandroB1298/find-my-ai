@@ -4,6 +4,7 @@ import { Nav } from "./components/nav";
 import { LeaderBoard } from "./pages/leaderboard";
 import { Contact } from "./pages/contact";
 import { AiHelper } from "./pages/helper";
+import { Alternatives } from "./pages/alternatives";
 
 function App() {
   return (
@@ -13,9 +14,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/ai-helper" element={<AiHelper />} />
+          <Route path="/alternatives" element={<Alternatives />} />
           <Route path="/leaderboard" element={<LeaderBoard />} />
           <Route path="/contact" element={<Contact />} />
-
           {/* Fallback for 404 pages */}
           <Route path="*" element={<h1>Page Not Found</h1>} />
         </Routes>
