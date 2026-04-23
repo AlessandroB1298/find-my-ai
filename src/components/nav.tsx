@@ -15,7 +15,7 @@ export function Nav() {
           <a href="/leaderboard">Leaderboard</a>
         </li>
         <li>
-          <a href="">Alternatives</a>
+          <a href="/alternatives">Alternatives</a>
         </li>
 
         <li>

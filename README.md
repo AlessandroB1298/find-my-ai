@@ -42,7 +42,7 @@ This section is in-depth and also provides resources for users.
 - [ ] One animated image
 - [x] One e-mail hyperlink
 - [x] At least one-page with a 3-column layout
-- [ ] 3/5 external hyperlinks
+- [x] 5/5 external hyperlinks
 - [x] 5/5 internal hyperlinks
 - [x] Consistent banner logo area
 - [x] Consistent navigation area

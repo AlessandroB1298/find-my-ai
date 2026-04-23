@@ -16,14 +16,14 @@ const features: featureType[] = [
     description:
       "We provide a multi-step AI-helper, allowing you to select a AI tool/model based on your project needs, budget requirements, and ease-of-access",
     icon: Layers,
-    link: "",
+    link: "/ai-helper",
   },
   {
     name: "Open-Sourced Alternatives",
     description:
       "A section dedicated to open-sourced alternatives, if you are feeling tech-savy and want to run models locally",
     icon: ListChevronsUpDown,
-    link: "",
+    link: "/alternatives",
   },
 ];
 
