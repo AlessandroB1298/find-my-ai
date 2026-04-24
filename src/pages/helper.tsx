@@ -126,9 +126,16 @@ export function AiHelper() {
             className="helper-stepper"
             styleConfig={{
               activeBgColor: "purple",
+              activeTextColor: "#ffffff", // Added
               inactiveBgColor: "#9ca3af",
-              inactiveTextColor: "white",
+              inactiveTextColor: "#ffffff",
               completedBgColor: "#9ca3af",
+              completedTextColor: "#ffffff", // Added
+              size: "2em", // Added (usually a string or number)
+              circleFontSize: "1rem", // Added
+              labelFontSize: "0.875rem", // Added (part of the "3 more")
+              borderRadius: "50%", // Added (part of the "3 more")
+              fontWeight: "400", // Added (part of the "3 more")
             }}
             steps={[
               { label: "Project Info" },

@@ -2,6 +2,30 @@
 
 ## This is a project for the CSC-3750 course at WSU.
 
+## Getting Started
+
+To install dependencies
+(in the root directory)
+```bash
+npm i
+```
+
+
+To build the application run 
+```bash
+
+npm run build
+```
+
+To run the application:
+
+```bash
+
+npm run dev
+
+```
+
+
 ## Project Description:
 
 This application is designed to showcase AI stats, ranging from LLMs to CV models. Showing users the most popular and useful models that are available to them. This allows users to make sound decisions when planning their projects, understanding which models they can use, the price, and open-sourced alternatives.
