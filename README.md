@@ -39,7 +39,7 @@ This section is in-depth and also provides resources for users.
 
 - [x] One page containing a form with at least three elements (place a form content in an e-mail message)
 - [x] One page utilizing tables effectively
-- [ ] One animated image
+- [x] One animated image
 - [x] One e-mail hyperlink
 - [x] At least one-page with a 3-column layout
 - [x] 5/5 external hyperlinks

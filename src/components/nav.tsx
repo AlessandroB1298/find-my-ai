@@ -4,7 +4,7 @@ export function Nav() {
   return (
     <nav className="nav">
       <div className="banner">
-        <a href="/">MYAI</a>
+        <a href="/">AIMIA</a>
         <Bot />
       </div>
       <ul>
