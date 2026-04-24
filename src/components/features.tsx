@@ -1,4 +1,4 @@
-import { ChartColumn, Layers, ListChevronsUpDown } from "lucide-react";
+import { ChartColumn, Info, Layers, ListChevronsUpDown } from "lucide-react";
 import type { featureType } from "../lib/types";
 import { FeatureCard } from "./featureCard";
 import "../styles/components/_featureCard.css";
@@ -25,20 +25,32 @@ const features: featureType[] = [
     icon: ListChevronsUpDown,
     link: "/alternatives",
   },
+  {
+    name: "About",
+    description:
+      "A section dedicated to the mission statement for this project and why it has merit.",
+    icon: Info,
+    link: "/about",
+  },
 ];
 
 export function Features() {
   return (
-    <div className="cards">
-      {features.map((feature) => (
-        <FeatureCard
-          key={feature.name}
-          name={feature.name}
-          description={feature.description}
-          icon={feature.icon}
-          link={feature.link}
-        />
-      ))}
+    <div>
+      <div className="header-container">
+        <h3 className="header-title">Features</h3>
+      </div>
+      <div className="cards">
+        {features.map((feature) => (
+          <FeatureCard
+            key={feature.name}
+            name={feature.name}
+            description={feature.description}
+            icon={feature.icon}
+            link={feature.link}
+          />
+        ))}
+      </div>
     </div>
   );
 }

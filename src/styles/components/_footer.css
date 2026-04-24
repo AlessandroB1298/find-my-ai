@@ -1,4 +1,4 @@
-.footer {
+.footer-container {
   margin: 1em;
   margin-top: 20em;
   box-shadow: 0 4px 12px purple;
@@ -27,7 +27,7 @@
   align-items: center;
   justify-content: center;
   gap: 5em;
-  width: 100%;
+  width: auto; 
 }
 
 .footer-resource-content {
@@ -43,7 +43,7 @@
 }
 .footer-resource-content a:after {
   left: 0px;
-  background-color: rgb(161, 73, 228);
+  background-color: #2875bd;;
   content: "";
   color: rgb(161, 73, 228);
   display: block;
@@ -80,4 +80,17 @@
 
 .icon:hover {
   cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .footer-container{
+    width: 100%;
+    height: 100%;
+    margin: 1em;
+  } 
+  .footer-content{
+    display : flex;
+    flex-direction: column;
+  }
 }

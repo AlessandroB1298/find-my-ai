@@ -4,10 +4,10 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export function Footer() {
   return (
-    <div className="footer">
+    <div className="footer-container">
       <div className="footer-content">
         <div className="footer-content-header">
-          <h3>MYAI</h3>
+          <h3>AIMIA</h3>
           <Bot />
         </div>
         <div className="footer-resources">
@@ -22,6 +22,9 @@ export function Footer() {
           </div>
           <div className="footer-resource-content">
             <a href="/contact">Contact Us</a>
+          </div>
+          <div className="footer-resource-content">
+            <a href="/about">About</a>
           </div>
         </div>
       </div>
